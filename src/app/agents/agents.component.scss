@@ -1,0 +1,86 @@
+:host {
+  display: block;
+  font-size: 13px;
+}
+
+.agents-table {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin: 16px;
+
+  & div {
+    line-height: 32px;
+  }
+
+  .header {
+    display: flex;
+    background: #eee;
+    width: 900px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .divider {
+      border-left: 2px solid #c6c6c6;
+      position: absolute;
+      top: 20%;
+      right: 0;
+      bottom: 20%;
+      display: block;
+    }
+  }
+
+
+  .agent-row {
+    display: flex;
+    width: 900px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .table-footer {
+    display: flex;
+    justify-content: flex-end;
+    background: #eee;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+    div {
+      margin-right: 16px;
+    }
+  }
+}
+
+
+
+.agent {
+  margin-left: 8px;
+  flex-basis: 15%;
+}
+
+.country {
+  margin-left: 8px;
+  flex-basis: 15%;
+}
+
+.address {
+  margin-left: 8px;
+  flex-basis: 40%;
+}
+
+.date {
+  margin-left: 8px;
+  flex-basis: 25%;
+}
+
+
+div.summery {
+  font-size: 15px;
+  margin: 0 16px;
+
+  .country {
+    font-weight: 600;
+  }
+}

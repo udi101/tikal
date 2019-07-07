@@ -1,0 +1,12 @@
+div.menu {
+  background: #2050b0;
+  margin: -8px -8px 8px -8px;
+  line-height: 24px;
+}
+
+button {
+    color:#fff;
+  &:first-child {
+    margin-left: 8px;
+  }
+}
